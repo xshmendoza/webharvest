@@ -1,0 +1,706 @@
+#overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: #ffff;
+  border: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 25px;
+}
+
+#nav-menu-popup {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+}
+
+#nav-menu-popup.open {
+  opacity: 1;
+  z-index: 999;
+}
+#overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: #ffff;
+  border: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 25px;
+}
+
+#nav-menu-popup {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+}
+
+#nav-menu-popup.open {
+  opacity: 1;
+  z-index: 999;
+}
+ .--mobile #nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 27px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 18px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body {
+            background: var(--color-lllmmjtp);
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu li.nav-menu-item {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        #nav-menu-_IoI6mwblP .items-cart-active {
+            color: #155eef;
+        }
+
+        #nav-menu-_IoI6mwblP .items-cart {
+            color: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a {
+            color: var(--white);
+            cursor: pointer;
+            height: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding: 5px 31px;
+            transition: all .3s ease;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item:hover a {
+            color: var(--color-lcf5mrwz);
+            background: var(--transparent);
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item:hover a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-menu .nav-menu-item:hover {
+            color: var(--color-lcf5mrwz);
+        }
+
+        .--mobile #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item {
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 27px;
+            font-family: var(--contentfont);
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .close-menu {
+            color: var(--white);
+            font-size: 27px;
+            font-weight: 600;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-menu .nav-menu-item {
+            color: var(--white);
+            text-align: center;
+            transition: all .3s ease;
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item {
+            font-size: 16px;
+            text-align: center;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-dropdown-menu .nav-menu-item:hover a {
+            color: var(--black);
+            background: var(--white);
+            padding: 10px;
+            transition: all .3s ease;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item:hover a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item:hover a {
+            color: var(--black);
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item {
+            background: var(--white);
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu-mobile span::before {
+            cursor: pointer;
+            color: var(--white);
+            content: "";
+            font-family: "Font Awesome 5 Free";
+            font-size: 27px;
+            font-weight: 600;
+        }
+
+        @media screen and (min-width:0px) and (max-width:480px) {
+            .nav-menu-_IoI6mwblP .branding .title {
+                font-size: 27px;
+                line-height: 1.3em;
+                font-weight: undefined;
+            }
+            #nav-menu-_IoI6mwblP .hl-autocomplete-results li {
+                font-size: 27px;
+            }
+        }
+
+        @media screen and (min-width:481px) and (max-width:10000px) {
+            .nav-menu-_IoI6mwblP .branding .title {
+                font-size: 18px;
+                line-height: 1.3em;
+                font-weight: undefined;
+            }
+            #nav-menu-_IoI6mwblP .hl-autocomplete-results li {
+                font-size: 18px;
+            }
+        }
+
+        #nav-menu-_IoI6mwblP strong {
+            font-weight: 700;
+        }
+
+        #nav-menu-_IoI6mwblP em,
+        #nav-menu-_IoI6mwblP strong,
+        #nav-menu-_IoI6mwblP u {
+            color: var(--text-color) !important;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input {
+            border: 1px solid #cacaca;
+            margin: 1px;
+            border-radius: 16px;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete {
+            font-family: inherit;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-button {
+            background: #fff;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input-wrapper {
+            color: #000;
+            background-color: #fff;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-results {
+            border: 1px solid #cacaca;
+            border-top: none;
+            border-radius: 16px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            color: var(--white);
+            background-color: var(--transparent);
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input:hover {
+            border-width: 1.5px;
+            margin: .5px;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input:focus-within {
+            border-width: 2px;
+            margin: 0;
+        }
+        
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a, #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a {
+           color: var(--white);
+           cursor: pointer;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 5px 31px;
+    transition: all .3s ease;
+}
+#nav-menu-popup .nav-menu-item .nav-menu-item-title {
+    flex-grow: 1;
+    margin: 0 1rem;
+    max-width: calc(100% - 2rem);
+}
+/* ===============================
+   STATIC RED ANIMATED BUTTON
+   =============================== */
+/* ===============================
+   LIGHT RUNNING GLOW BUTTON
+   + ELECTRIC EFFECT
+   =============================== */
+
+
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION
+   =============================== */
+
+.paragraph-fUUhc2YALyJ {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: ghlSlideLeft 0.9s ease-out forwards;
+}
+
+/* Optional: stagger paragraphs */
+.paragraph-fUUhc2YALyJ p:nth-child(1) {
+  animation-delay: 0.15s;
+}
+
+.paragraph-fUUhc2YALyJ p:nth-child(2) {
+  animation-delay: 0.35s;
+}
+
+/* 🎞 Animation */
+@keyframes ghlSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION
+   =============================== */
+
+.heading-i4YoXE2LBmx {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: ghlSlideRight 0.9s ease-out forwards;
+}
+
+/* Optional: stagger inner elements if multiple spans/h1s */
+.heading-i4YoXE2LBmx h1 span {
+  display: inline-block; /* ensures animation looks smooth */
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION - Sub-Heading
+   =============================== */
+
+.sub-heading-QrmlFJ9p5B {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: ghlSlideLeftSub 0.9s ease-out forwards;
+}
+
+/* Optional: stagger inner elements */
+.sub-heading-QrmlFJ9p5B h1 {
+  display: inline-block; /* ensures smooth motion */
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideLeftSub {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION - Sub-Heading
+   =============================== */
+
+.sub-heading-nw40u6sidgZ {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: ghlSlideRightSub 0.9s ease-out forwards;
+}
+
+/* Optional: smooth motion for inner text */
+.sub-heading-nw40u6sidgZ h3 span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRightSub {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE UP SLIDE ANIMATION - Heading
+   =============================== */
+
+.heading-Ecl6ooOyoig {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: ghlSlideUp 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.heading-Ecl6ooOyoig h2 span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ===============================
+   GHL-STYLE DOWN SLIDE ANIMATION - Paragraph
+   =============================== */
+
+.paragraph-1eYx2NCW4M_ {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: ghlSlideDown 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.paragraph-1eYx2NCW4M_ p span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION - Image
+   =============================== */
+
+.cimage-ZIPDh-sHV5 {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: ghlSlideRightImage 0.9s ease-out forwards;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRightImage {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION - Heading
+   =============================== */
+
+.heading-ES0tp08S_1j {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: ghlSlideLeftHeading 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.heading-ES0tp08S_1j p span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideLeftHeading {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION - Sub-Heading
+   =============================== */
+
+.sub-heading-58kBt6-_IEz {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: ghlSlideRightSubHeading 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.sub-heading-58kBt6-_IEz h3 {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRightSubHeading {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION - Multi-Line Sub-Heading
+   =============================== */
+
+.sub-heading-zIG7cPTEVG2 {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: ghlSlideLeftSubHeading2 0.9s ease-out forwards;
+}
+
+/* Ensure inner text moves smoothly */
+.sub-heading-zIG7cPTEVG2 h2 {
+  display: inline-block;
+}
+
+/* Optional: stagger each H2 for sequential entrance */
+.sub-heading-zIG7cPTEVG2 h2:nth-child(1) { animation-delay: 0.15s; }
+.sub-heading-zIG7cPTEVG2 h2:nth-child(2) { animation-delay: 0.35s; }
+.sub-heading-zIG7cPTEVG2 h2:nth-child(3) { animation-delay: 0.55s; }
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideLeftSubHeading2 {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION - Heading
+   =============================== */
+
+.heading-YuETAhNyexU {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: ghlSlideRightHeading2 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.heading-YuETAhNyexU p span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRightHeading2 {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION - Sub-Heading
+   =============================== */
+
+.sub-heading-xAmmIaSySbf {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: ghlSlideLeftSubHeading3 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.sub-heading-xAmmIaSySbf h3 {
+  display: inline-block;
+}
+
+/* Optional: stagger multiple h3 lines if present */
+.sub-heading-xAmmIaSySbf h3:nth-child(1) { animation-delay: 0.15s; }
+.sub-heading-xAmmIaSySbf h3:nth-child(2) { animation-delay: 0.35s; }
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideLeftSubHeading3 {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE DOWN SLIDE ANIMATION - Image
+   =============================== */
+
+.cimage-xucgmDB-hM {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: ghlSlideDownImage 0.9s ease-out forwards;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideDownImage {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button,
+.btn,
+input[type="button"],
+input[type="submit"],
+a.button {
+  position: relative;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #0e0e0e;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.35s ease;
+}
+
+
+
+
+/* ✨ Inner Button Surface */
+button::after,
+.btn::after,
+input[type="button"]::after,
+input[type="submit"]::after,
+a.button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #ff1a1a, #ff4d4d);
+  z-index: -1;
+}
+
+/* 🔥 Hover: CLEAN STATE (Electric OFF) */
+button:hover,
+.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+a.button:hover {
+  transform: scale(1.06);
+}
+
+button:hover span.electric,
+.btn:hover span.electric,
+a.button:hover span.electric {
+  opacity: 0;
+  animation: none;
+}
+
+/* 🎞 Animations */
+@keyframes glowRun {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+@keyframes electricMove {
+  from { background-position: 0 0; }
+  to { background-position: 200% 200%; }
+}
+
+
+
+

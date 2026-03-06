@@ -1,0 +1,480 @@
+#overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: #ffff;
+  border: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 25px;
+}
+
+#nav-menu-popup {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+}
+
+#nav-menu-popup.open {
+  opacity: 1;
+  z-index: 999;
+}
+#overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: #ffff;
+  border: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 15px 25px;
+}
+
+#nav-menu-popup {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3 ease-in-out;
+  z-index: -1;
+}
+
+#nav-menu-popup.open {
+  opacity: 1;
+  z-index: 999;
+}
+ .--mobile #nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 27px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 18px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body {
+            background: var(--color-lllmmjtp);
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu li.nav-menu-item {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        #nav-menu-_IoI6mwblP .items-cart-active {
+            color: #155eef;
+        }
+
+        #nav-menu-_IoI6mwblP .items-cart {
+            color: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a {
+            color: var(--white);
+            cursor: pointer;
+            height: inherit;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding: 5px 31px;
+            transition: all .3s ease;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item:hover a {
+            color: var(--color-lcf5mrwz);
+            background: var(--transparent);
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item:hover a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-menu .nav-menu-item:hover {
+            color: var(--color-lcf5mrwz);
+        }
+
+        .--mobile #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item {
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu {
+            font-size: 27px;
+            font-family: var(--contentfont);
+            font-weight: undefined;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .close-menu {
+            color: var(--white);
+            font-size: 27px;
+            font-weight: 600;
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-menu .nav-menu-item {
+            color: var(--white);
+            text-align: center;
+            transition: all .3s ease;
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item {
+            font-size: 16px;
+            text-align: center;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-dropdown-menu .nav-menu-item:hover a {
+            color: var(--black);
+            background: var(--white);
+            padding: 10px;
+            transition: all .3s ease;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu .dropdown-menu .dropdown-item:hover a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item a,
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item:hover a {
+            color: var(--black);
+        }
+
+        #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu-body .nav-dropdown-menu .nav-menu-item {
+            background: var(--white);
+            font-size: 25px;
+            font-weight: undefined;
+        }
+
+        #nav-menu-_IoI6mwblP .nav-menu-mobile span::before {
+            cursor: pointer;
+            color: var(--white);
+            content: "";
+            font-family: "Font Awesome 5 Free";
+            font-size: 27px;
+            font-weight: 600;
+        }
+
+        @media screen and (min-width:0px) and (max-width:480px) {
+            .nav-menu-_IoI6mwblP .branding .title {
+                font-size: 27px;
+                line-height: 1.3em;
+                font-weight: undefined;
+            }
+            #nav-menu-_IoI6mwblP .hl-autocomplete-results li {
+                font-size: 27px;
+            }
+        }
+
+        @media screen and (min-width:481px) and (max-width:10000px) {
+            .nav-menu-_IoI6mwblP .branding .title {
+                font-size: 18px;
+                line-height: 1.3em;
+                font-weight: undefined;
+            }
+            #nav-menu-_IoI6mwblP .hl-autocomplete-results li {
+                font-size: 18px;
+            }
+        }
+
+        #nav-menu-_IoI6mwblP strong {
+            font-weight: 700;
+        }
+
+        #nav-menu-_IoI6mwblP em,
+        #nav-menu-_IoI6mwblP strong,
+        #nav-menu-_IoI6mwblP u {
+            color: var(--text-color) !important;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input {
+            border: 1px solid #cacaca;
+            margin: 1px;
+            border-radius: 16px;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete {
+            font-family: inherit;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-button {
+            background: #fff;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input-wrapper {
+            color: #000;
+            background-color: #fff;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-results {
+            border: 1px solid #cacaca;
+            border-top: none;
+            border-radius: 16px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            color: var(--white);
+            background-color: var(--transparent);
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input:hover {
+            border-width: 1.5px;
+            margin: .5px;
+        }
+
+        #nav-menu-_IoI6mwblP .hl-autocomplete-input:focus-within {
+            border-width: 2px;
+            margin: 0;
+        }
+        
+        #nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a, #nav-menu-popup.nav-menu-_IoI6mwblP .nav-menu .nav-menu-item a {
+           color: var(--white);
+           cursor: pointer;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 5px 31px;
+    transition: all .3s ease;
+}
+#nav-menu-popup .nav-menu-item .nav-menu-item-title {
+    flex-grow: 1;
+    margin: 0 1rem;
+    max-width: calc(100% - 2rem);
+}
+/* ===============================
+   LIGHT RUNNING GLOW BUTTON
+   + ELECTRIC EFFECT
+   =============================== */
+
+button,
+.btn,
+input[type="button"],
+input[type="submit"],
+a.button {
+  position: relative;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #0e0e0e;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.35s ease;
+}
+
+/* 🌈 Running Glow Border */
+button::before,
+.btn::before,
+input[type="button"]::before,
+input[type="submit"]::before,
+a.button::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 80, 80, 0.35),
+    rgba(255, 0, 0, 0.55),
+    rgba(255, 80, 80, 0.35)
+  );
+  background-size: 300% 300%;
+  animation: glowRun 4s linear infinite;
+  z-index: -2;
+  filter: blur(6px);
+}
+
+/* ⚡ ELECTRIC SHIMMER LAYER */
+button span.electric,
+.btn span.electric,
+a.button span.electric {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 80, 80, 0.45) 1%,
+    transparent 3%
+  );
+  opacity: 0.6;
+  animation: electricMove 0.18s infinite linear;
+  z-index: 1;
+}
+
+/* ✨ Inner Button Surface */
+button::after,
+.btn::after,
+input[type="button"]::after,
+input[type="submit"]::after,
+a.button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #ff1a1a, #ff4d4d);
+  z-index: -1;
+}
+
+/* 🔥 Hover: CLEAN STATE (Electric OFF) */
+button:hover,
+.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+a.button:hover {
+  transform: scale(1.06);
+}
+
+button:hover span.electric,
+.btn:hover span.electric,
+a.button:hover span.electric {
+  opacity: 0;
+  animation: none;
+}
+
+/* 🎞 Animations */
+@keyframes glowRun {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+@keyframes electricMove {
+  from { background-position: 0 0; }
+  to { background-position: 200% 200%; }
+}
+/* ===============================
+   GHL-STYLE RIGHT SLIDE ANIMATION - Heading
+   =============================== */
+
+.heading-9mVTd09bqf {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: ghlSlideRightHeading3 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.heading-9mVTd09bqf p span {
+  display: inline-block;
+}
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideRightHeading3 {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE LEFT SLIDE ANIMATION - Sub-Heading
+   =============================== */
+
+.sub-heading-0GoE7Ts-UT {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: ghlSlideLeftSubHeading4 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.sub-heading-0GoE7Ts-UT p {
+  display: inline-block;
+}
+
+/* Optional: stagger multiple paragraphs if needed */
+.sub-heading-0GoE7Ts-UT p:nth-child(1) { animation-delay: 0.15s; }
+.sub-heading-0GoE7Ts-UT p:nth-child(2) { animation-delay: 0.35s; }
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideLeftSubHeading4 {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* ===============================
+   GHL-STYLE DOWN SLIDE ANIMATION - Paragraph
+   =============================== */
+
+.paragraph-DuBiSgyHlX {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: ghlSlideDownParagraph 0.9s ease-out forwards;
+}
+
+/* Smooth motion for inner text */
+.paragraph-DuBiSgyHlX p {
+  display: inline-block;
+}
+
+/* Optional: stagger multiple paragraphs if needed */
+.paragraph-DuBiSgyHlX p:nth-child(1) { animation-delay: 0.15s; }
+.paragraph-DuBiSgyHlX p:nth-child(2) { animation-delay: 0.35s; }
+
+/* 🎞 Animation Keyframes */
+@keyframes ghlSlideDownParagraph {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
